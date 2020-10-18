@@ -1,1 +1,1 @@
-# c-projects
+# c++ da yaptığım bazı çalışmalar.
