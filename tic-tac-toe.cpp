@@ -6,16 +6,15 @@ using namespace std;
 void printInputMatrix();
 void printBoard();
 char board[3][3] = {' ', ' ' , ' ',
-					' ', ' ' , ' ',
-					' ', ' ' , ' '};
+		    ' ', ' ' , ' ',
+		    ' ', ' ' , ' '};
 int turn = 1 ; 
 char mark = 'O';
 int input;
 int addMark();
 int check();
 
-
-  
+ 
 int main(){
 	int won = 0;
 	int validInput = 0;
@@ -53,13 +52,10 @@ int main(){
 			printBoard();
 			cout << endl << "Berabere ";
 		}
-		
-		
+
 		turn = !turn;
 	}
-	
-	
-	
+
 	return 0;
 	
 }
@@ -98,7 +94,7 @@ int addMark(){
 				}
 		}
 	}
-		
+	
 	
 }
 int check(){
